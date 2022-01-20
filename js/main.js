@@ -1,7 +1,7 @@
 const app = new Vue({
     el: "#app",
     data: {
-        database: []
+        database: [],
     },
     created() {
         axios.get("http://localhost/php-ajax-dischi/backend.php")
